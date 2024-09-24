@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  .container-proj {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-card {
+    width: 100%;
+  }
+  .main_flexBox {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}

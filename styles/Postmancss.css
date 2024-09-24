@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  overflow: hidden;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 68, 121, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  background-color: #eeede6;
+  border-radius: 40px;
+  display: flex;
+  float: right;
+  margin-top: 7px;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.Postman-main {
+  float: left;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  font-size: 24px;
+  margin: 16px;
+}
